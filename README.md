@@ -1,5 +1,7 @@
 # Song Storyteller
 
+![Song Storyteller — Hear the song you thought you knew](assets/song-storyteller-cover.png)
+
 **Hear the song you thought you knew.**
 
 Song Storyteller is an open-source Agent Skill that explains what a song is really about, then tells the verified story that makes you hear it differently.
@@ -10,7 +12,11 @@ It is designed for songs in any language and writes in the reader's language. Gi
 
 The result is a compact music-magazine feature with a meaning-first opening, cultural and linguistic context, one genuinely surprising turn, and inline links to reliable sources.
 
-[Русская версия](README.ru.md)
+[English](README.md) · [Français](README.fr.md) · [Español](README.es.md) · [Русский](README.ru.md)
+
+## Launch languages
+
+English, French, Spanish, and Russian are the project's first-class launch languages for documentation and examples. The skill itself remains language-agnostic and can research and write in other languages supported by the underlying agent and available sources.
 
 ## What makes it different
 
@@ -59,6 +65,14 @@ Use $song-storyteller to compare the original song and this remix: <link>
 
 You can ask for a shorter post, a deeper feature, a specific output language, or extra attention to lyrics, production, history, or disputed legends.
 
+## Demo stories
+
+Three cross-cultural examples show the same skill moving meaning between languages:
+
+- [Madonna — *Secret*, told in Russian](examples/ru/madonna-secret.md)
+- [Кино — *Пачка сигарет*, told in French](examples/fr/kino-pachka-sigaret.md)
+- [Stromae — *Papaoutai*, told in Spanish](examples/es/stromae-papaoutai.md)
+
 ## Editorial promise
 
 Every story should:
@@ -74,6 +88,12 @@ No source is strong enough? The agent says so. No spectacular secret exists? It 
 ## Repository layout
 
 ```text
+assets/
+└── song-storyteller-cover.png
+examples/
+├── es/stromae-papaoutai.md
+├── fr/kino-pachka-sigaret.md
+└── ru/madonna-secret.md
 skills/song-storyteller/
 ├── SKILL.md
 ├── agents/openai.yaml
