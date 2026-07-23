@@ -96,6 +96,8 @@ Do not turn the structure into a list of visible headings unless the user asks f
 
 Write with the confidence and curiosity of an excellent music columnist without imitating a named writer. Default to 700–1,100 words or roughly 3–6 minutes of reading. Follow the user's requested length when given.
 
+Never output the Unicode em dash U+2014. Use only the short en dash `–` (U+2013) wherever a dash is needed. Before publishing, search the complete draft for U+2014 and replace every occurrence.
+
 Place descriptive links beside the claims they support. Link to the interview, archive, paper, or article itself, never a search results page.
 
 Cut at least 15 percent from the first draft. Remove repeated conclusions, irrelevant biography, decorative chart facts, empty transitions, and any detail that does not improve the meaning, sound, or cultural story.
@@ -108,6 +110,7 @@ Cut at least 15 percent from the first draft. Remove repeated conclusions, irrel
 - No scene, thought, dialogue, motive, or causal link has been invented.
 - The surprise changes the song rather than merely displaying trivia.
 - The prose sounds natural when read aloud in the response language.
+- The text contains no U+2014 em dashes; every dash is the short U+2013 en dash.
 - The conclusion gives the reader a reason to listen again.
 
 ## Output

@@ -30,7 +30,7 @@ Delete:
 - vague authorities such as "experts say" and "many critics believe";
 - labels for the writer's own machinery, including "the key insight" and "the real twist";
 - identical punch-line endings on every paragraph;
-- excessive dashes, bold-first lists, and ornamental formatting;
+- every U+2014 em dash, excessive short dashes, bold-first lists, and ornamental formatting; use only the short U+2013 en dash `–` when a dash is necessary;
 - biography, charts, awards, and trivia that do not change this song.
 
 One instance of a rhetorical pattern may be natural. Repetition turns a voice into a template.
