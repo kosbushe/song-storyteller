@@ -1,0 +1,4 @@
+interface:
+  display_name: "Song Storyteller"
+  short_description: "Verified song stories in any language"
+  default_prompt: "Use $song-storyteller to explain what this song means and tell its verified story in my language."
