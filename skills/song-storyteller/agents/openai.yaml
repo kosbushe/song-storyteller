@@ -1,4 +1,7 @@
 interface:
   display_name: "Song Storyteller"
   short_description: "Verified song stories in any language"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  brand_color: "#070707"
   default_prompt: "Use $song-storyteller to explain what this song means and tell its verified story in my language."

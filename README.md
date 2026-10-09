@@ -89,6 +89,8 @@ No source is strong enough? The agent says so. No spectacular secret exists? It 
 
 ```text
 assets/
+├── generate_cover.swift
+├── song-storyteller-avatar.png
 └── song-storyteller-cover.png
 examples/
 ├── es/stromae-papaoutai.md
@@ -97,6 +99,7 @@ examples/
 skills/song-storyteller/
 ├── SKILL.md
 ├── agents/openai.yaml
+├── assets/icon.png
 └── references/
     ├── editorial-standard.md
     ├── literary-voice.md
