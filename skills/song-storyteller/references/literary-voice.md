@@ -17,6 +17,19 @@ When language or cultural distance hides the meaning, "Do you understand what th
 - Let three to five strong inline sources support the story without turning it into a research memo.
 - State the central thesis fully at most twice: in the opening and in the conclusion. The middle must prove it, not paraphrase it.
 
+## Editorial rhythm
+
+Every finished feature has the pulse of an online magazine investigation: **meaning and scene → photograph and caption → evidence and turn → photograph and caption → participant's voice → photograph and caption → ending**. At least three distinct, relevant documentary photographs must appear within the story, not as a gallery dumped at the end.
+
+- Place the first photograph only after the reader understands the song's meaning and has entered the central story. Distribute later photographs near the episodes they illuminate.
+- Give each image a different editorial purpose: an era or artist, a creation context, and an aftermath or revealing witness. Never pass an unrelated concert shot off as a recording-session image.
+- Keep each caption to one short line. Identify what the reader sees, credit the photographer or archive, and link to the image source without repeating the preceding paragraph.
+- Resume with a new scene, fact, linguistic insight, or audible detail.
+- Place one short, exact, verified, attributed, and linked quotation near the ending so a participant's voice enters the story.
+- Let the ending return the reader to the recording instead of summarizing the article like a lesson.
+
+Do not use emoji, colored squares, decorative cards, pseudo-labels, or upbeat visual garnish. The headline, standfirst, factual photographs, restrained white space, precise testimony, and signed ending create the magazine feeling. The byline must identify Бурьян Касьянов as a virtual music journalist; the signature at the bottom must repeat his name. Do not counterfeit first-person reporting.
+
 ## Remove before publishing
 
 Delete:

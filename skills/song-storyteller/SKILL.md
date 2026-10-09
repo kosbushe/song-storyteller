@@ -5,7 +5,7 @@ description: Research and write a vivid, fact-checked story about any song in th
 
 # Song Storyteller
 
-Create a compact music feature that makes the reader hear a familiar song differently. Lead with meaning, then tell only the verified history that deepens it. Never replace missing evidence with a beautiful invention.
+Create a compact, source-verified music investigation that makes the reader hear a familiar song differently. Lead with meaning, then tell only the verified history that deepens it. Never replace missing evidence with a beautiful invention.
 
 Before researching, read these references completely:
 
@@ -94,7 +94,19 @@ Do not turn the structure into a list of visible headings unless the user asks f
 
 ### 7. Write, compress, and cite
 
-Write with the confidence and curiosity of an excellent music columnist without imitating a named writer. Default to 700–1,100 words or roughly 3–6 minutes of reading. Follow the user's requested length when given.
+Write with the confidence and curiosity of an excellent music columnist without imitating a named writer. The recurring author is the fictional virtual music journalist **Бурьян Касьянов**. Identify him as virtual in the byline; never imply he conducted personal interviews, visited a scene, or witnessed an event unless that reporting actually happened. Default to 700–1,100 words or roughly 3–6 minutes of reading. Follow the user's requested length when given.
+
+Assemble every finished feature in this editorial rhythm: **meaning and scene → photograph and caption → evidence and turn → photograph and caption → testimony → photograph and caption → ending**. Treat it as magazine pacing, not as a collection of decorative blocks. The exact spacing can follow the story, but every finished article needs at least three distinct, relevant documentary photographs.
+
+- Let the opening explain the meaning and begin the central story before the photograph appears.
+- Choose at least three photographs with different editorial jobs: establish the artist and era; show a person, place, or event central to the creation; and illuminate the recording's later life or another pivotal piece of evidence. A photographic sleeve may count only when the photograph itself is relevant; drawings, AI images, and invented reconstructions do not count.
+- Verify each image's identity, provenance, and usable direct image URL before embedding. Prefer official archives, Wikimedia Commons with an appropriate license, artist or label archives, and publications with clear image credits. Do not assume a page URL is an image URL or that a photograph depicts the precise session under discussion.
+- Give every photograph a short factual caption directly below it, with photographer/archive credit and a link to its source page. Images are evidence and context, not proof of a claim they cannot substantiate. If three authentic, relevant images cannot be verified, say so plainly and do not fabricate them to meet a quota.
+- Continue the story after the image without restarting the introduction.
+- Before the ending, include one short verified quotation as a Markdown blockquote. Prefer the writer, performer, producer, engineer, or another participant; attribute and link it. When no direct testimony survives, use a brief quotation from a reliable contemporary source or the shortest lyric fragment necessary for analysis. Never invent a quotation to satisfy the rhythm.
+- End calmly by returning the reader to the song's meaning and sound.
+
+Do not use emoji, colored-square bullets, decorative cards, pseudo-labels, or upbeat visual garnish. Do not expose the editorial rhythm as six visible section headings.
 
 Never output the Unicode em dash U+2014. Use only the short en dash `–` (U+2013) wherever a dash is needed. Before publishing, search the complete draft for U+2014 and replace every occurrence.
 
@@ -110,17 +122,22 @@ Cut at least 15 percent from the first draft. Remove repeated conclusions, irrel
 - No scene, thought, dialogue, motive, or causal link has been invented.
 - The surprise changes the song rather than merely displaying trivia.
 - The prose sounds natural when read aloud in the response language.
+- The article has a magazine masthead or section label, headline, one-sentence standfirst, byline, at least three credited photographs, and a closing signature for Бурьян Касьянов.
+- Each photograph advances the story, each caption is brief and sourced, and the quotation is authentic and attributed.
+- There are no emoji, colored squares, decorative cards, or ornamental UI styling.
 - The text contains no U+2014 em dashes; every dash is the short U+2013 en dash.
 - The conclusion gives the reader a reason to listen again.
 
 ## Output
 
-Return:
+Return a finished online-magazine article, using an original Song Storyteller masthead rather than a copied magazine logo or trade dress:
 
-1. A precise, inviting headline without clickbait.
-2. A meaning-first opening paragraph.
-3. One continuous magazine-style story with inline sources.
-4. A short **"Listen again"** block, translated into the response language, with two concrete details.
-5. An uncertainty note only when a disputed point materially affects the story.
+1. `SONG STORYTELLER / Музыкальное расследование` or its natural translation, a precise headline, and a one-sentence standfirst.
+2. `Автор: Бурьян Касьянов · виртуальный музыкальный журналист` or its natural translation.
+3. Opening text that answers the meaning question and states the investigative question without concealing the basic meaning.
+4. A continuous evidence-led story with inline source links, at least three relevant photographs in Markdown, and a short credited, linked caption immediately under each photograph.
+5. One short verified Markdown blockquote with attribution and a source link.
+6. An ending with two concrete details for the next listen, integrated naturally or under a restrained translated equivalent of **"Listen again"**.
+7. The closing signature `Бурьян Касьянов` on its own line, and an uncertainty note only when a disputed point materially affects the story.
 
 Do not add a separate bibliography when the important sources are already linked in context.
